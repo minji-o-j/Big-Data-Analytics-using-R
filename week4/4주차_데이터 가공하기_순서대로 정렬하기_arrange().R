@@ -86,7 +86,7 @@ exam %>% arrange(desc(math)) #math 내림차순 정렬
 #------------------------------
 ## 정렬 기준 변수 여러개 지정하기
 
-exam %>% arrange(class, math) # class->math 기준준 오름차순 정렬
+exam %>% arrange(class, math) # class->math 기준 순 오름차순 정렬
 
 #    id class math english science
 # 1   4     1   30      98      58
